@@ -1,0 +1,218 @@
+Aruba;North America;103000;78.4
+Afghanistan;Asia;22720000;45.9
+Angola;Africa;12878000;38.3
+Anguilla;North America;8000;76.1
+Albania;Europe;3401200;71.6
+Andorra;Europe;78000;83.5
+Netherlands Antilles;North America;217000;74.7
+United Arab Emirates;Asia;2441000;74.1
+Argentina;South America;37032000;75.1
+Armenia;Asia;3520000;1366.4
+American Samoa;Oceania;68000;75.1
+Antigua and Barbuda;North America;68000;70.5
+Australia;Oceania;18886000;79.8
+Austria;Europe;8091800;77.7
+Azerbaijan;Asia;7734000;62.9
+Burundi;Africa;6695000;46.2
+Belgium;Europe;10239000;77.8
+Benin;Africa;6097000;50.2
+Burkina Faso;Africa;11937000;46.7
+Bangladesh;Asia;129155000;60.2
+Bulgaria;Europe;8190900;70.9
+Bahrain;Asia;617000;73.0
+Bahamas;North America;307000;71.1
+Bosnia and Herzegovina;Europe;3972000;71.5
+Belarus;Europe;10236000;68.0
+Belize;North America;241000;70.9
+Bermuda;North America;65000;76.9
+Bolivia;South America;8329000;63.7
+Brazil;South America;170115000;62.9
+Barbados;North America;270000;73.0
+Brunei;Asia;328000;73.6
+Bhutan;Asia;2124000;52.4
+Botswana;Africa;1622000;39.3
+Central African Republic;Africa;3615000;44.0
+Canada;North America;31147000;79.4
+Switzerland;Europe;7160400;79.6
+Chile;South America;15211000;75.7
+China;Asia;1277558000;71.4
+Cameroon;Africa;15085000;54.8
+Congo;Africa;2943000;47.4
+Cook Islands;Oceania;20000;71.1
+Colombia;South America;42321000;70.3
+Comoros;Africa;578000;60.0
+Cape Verde;Africa;428000;68.9
+Costa Rica;North America;4023000;75.8
+Cuba;North America;11201000;76.2
+Cayman Islands;North America;38000;78.9
+Cyprus;Asia;754700;76.7
+Czech Republic;Europe;10278100;74.5
+Germany;Europe;82164700;77.4
+Djibouti;Africa;638000;50.8
+Dominica;North America;71000;73.4
+Denmark;Europe;5330000;76.5
+Dominican Republic;North America;8495000;73.2
+Algeria;Africa;31471000;69.7
+Ecuador;South America;12646000;71.1
+Egypt;Africa;68470000;63.3
+Eritrea;Africa;3850000;55.8
+Western Sahara;Africa;293000;49.8
+Spain;Europe;39441700;78.8
+Estonia;Europe;1439200;69.5
+Ethiopia;Africa;62565000;45.2
+Finland;Europe;5171300;77.4
+Fiji Islands;Oceania;817000;67.9
+France;Europe;59225700;78.8
+Faroe Islands;Europe;43000;78.4
+Gabon;Africa;1226000;50.1
+United Kingdom;Europe;59623400;77.7
+Georgia;Asia;4968000;64.5
+Ghana;Africa;20212000;57.4
+Gibraltar;Europe;25000;79.0
+Guinea;Africa;7430000;45.6
+Guadeloupe;North America;456000;77.0
+Gambia;Africa;1305000;53.2
+Guinea-Bissau;Africa;1213000;49.0
+Equatorial Guinea;Africa;453000;53.6
+Greece;Europe;10545700;78.4
+Grenada;North America;94000;64.5
+Greenland;North America;56000;68.1
+Guatemala;North America;11385000;66.2
+French Guiana;South America;181000;76.1
+Guam;Oceania;168000;77.8
+Guyana;South America;861000;64.0
+Hong Kong;Asia;6782000;79.5
+Honduras;North America;6485000;69.9
+Croatia;Europe;4473000;73.7
+Haiti;North America;8222000;49.2
+Hungary;Europe;10043200;71.4
+Indonesia;Asia;212107000;68.0
+India;Asia;1013662000;62.5
+Ireland;Europe;3775100;76.8
+Iran;Asia;67702000;69.7
+Iraq;Asia;23115000;66.5
+Iceland;Europe;279000;79.4
+Israel;Asia;6217000;78.6
+Italy;Europe;57680000;79.0
+Jamaica;North America;2583000;75.2
+Jordan;Asia;5083000;77.4
+Japan;Asia;126714000;80.7
+Kazakstan;Asia;16223000;63.2
+Kenya;Africa;30080000;48.0
+Kyrgyzstan;Asia;4699000;63.4
+Cambodia;Asia;11168000;56.5
+Kiribati;Oceania;83000;59.8
+Saint Kitts and Nevis;North America;38000;70.7
+South Korea;Asia;46844000;74.4
+Kuwait;Asia;1972000;76.1
+Laos;Asia;5433000;53.1
+Lebanon;Asia;3282000;71.3
+Liberia;Africa;3154000;51.0
+Libyan Arab Jamahiriya;Africa;5605000;75.5
+Saint Lucia;North America;154000;72.3
+Liechtenstein;Europe;32300;78.8
+Sri Lanka;Asia;18827000;71.8
+Lesotho;Africa;2153000;50.8
+Lithuania;Europe;3698500;69.1
+Luxembourg;Europe;435700;77.1
+Latvia;Europe;2424200;68.4
+Macao;Asia;473000;81.6
+Morocco;Africa;28351000;69.1
+Monaco;Europe;34000;78.8
+Moldova;Europe;4380000;64.5
+Madagascar;Africa;15942000;55.0
+Maldives;Asia;286000;62.2
+Mexico;North America;98881000;71.5
+Marshall Islands;Oceania;64000;65.5
+Macedonia;Europe;2024000;73.8
+Mali;Africa;11234000;46.7
+Malta;Europe;380200;77.9
+Myanmar;Asia;45611000;54.9
+Mongolia;Asia;2662000;67.3
+Northern Mariana Islands;Oceania;78000;75.5
+Mozambique;Africa;19680000;37.5
+Mauritania;Africa;2670000;50.8
+Montserrat;North America;11000;78.0
+Martinique;North America;395000;78.3
+Mauritius;Africa;1158000;71.0
+Malawi;Africa;10925000;37.6
+Malaysia;Asia;22244000;70.8
+Mayotte;Africa;149000;59.5
+Namibia;Africa;1726000;42.5
+New Caledonia;Oceania;214000;72.8
+Niger;Africa;10730000;41.3
+Nigeria;Africa;111506000;51.6
+Nicaragua;North America;5074000;68.7
+Netherlands;Europe;15864000;78.3
+Norway;Europe;4478500;78.7
+Nepal;Asia;23930000;57.8
+Nauru;Oceania;12000;60.8
+New Zealand;Oceania;3862000;77.8
+Oman;Asia;2542000;71.8
+Pakistan;Asia;156483000;61.1
+Panama;North America;2856000;75.5
+Peru;South America;25662000;70.0
+Philippines;Asia;75967000;67.5
+Palau;Oceania;19000;68.6
+Papua New Guinea;Oceania;4807000;63.1
+Poland;Europe;38653600;73.2
+Puerto Rico;North America;3869000;75.6
+North Korea;Asia;24039000;70.7
+Portugal;Europe;9997600;75.8
+Paraguay;South America;5496000;73.7
+Palestine;Asia;3101000;71.4
+French Polynesia;Oceania;235000;74.8
+Qatar;Asia;599000;72.4
+Romania;Europe;22455500;69.9
+Russian Federation;Europe;146934000;67.2
+Rwanda;Africa;7733000;39.3
+Saudi Arabia;Asia;21607000;67.8
+Sudan;Africa;29490000;56.6
+Senegal;Africa;9481000;62.2
+Singapore;Asia;3567000;80.1
+Saint Helena;Africa;6000;76.8
+Solomon Islands;Oceania;444000;71.3
+Sierra Leone;Africa;4854000;45.3
+El Salvador;North America;6276000;69.7
+San Marino;Europe;27000;81.1
+Somalia;Africa;10097000;46.2
+Saint Pierre and Miquelon;North America;7000;77.6
+Sao Tome and Principe;Africa;147000;65.3
+Suriname;South America;417000;71.4
+Slovakia;Europe;5398700;73.7
+Slovenia;Europe;1987800;74.9
+Sweden;Europe;8861400;79.6
+Swaziland;Africa;1008000;40.4
+Seychelles;Africa;77000;70.4
+Syria;Asia;16125000;68.5
+Turks and Caicos Islands;North America;17000;73.3
+Chad;Africa;7651000;50.5
+Togo;Africa;4629000;54.7
+Thailand;Asia;61399000;68.6
+Tajikistan;Asia;6188000;64.1
+Turkmenistan;Asia;4459000;60.9
+East Timor;Asia;885000;46.0
+Tonga;Oceania;99000;67.9
+Trinidad and Tobago;North America;1295000;68.0
+Tunisia;Africa;9586000;73.7
+Turkey;Asia;66591000;71.0
+Tuvalu;Oceania;12000;66.3
+Taiwan;Asia;22256000;76.4
+Tanzania;Africa;33517000;52.3
+Uganda;Africa;21778000;42.9
+Ukraine;Europe;50456000;66.0
+Uruguay;South America;3337000;75.2
+United States;North America;278357000;77.1
+Uzbekistan;Asia;24318000;63.7
+Saint Vincent and the Grenadines;North America;114000;72.3
+Venezuela;South America;24170000;73.1
+Virgin Islands, British;North America;21000;75.4
+Virgin Islands, U.S.;North America;93000;78.1
+Vietnam;Asia;79832000;69.3
+Vanuatu;Oceania;190000;60.6
+Samoa;Oceania;180000;69.2
+Yemen;Asia;18112000;59.8
+Yugoslavia;Europe;10640000;72.4
+South Africa;Africa;40377000;51.1
+Zambia;Africa;9169000;37.2
+Zimbabwe;Africa;11669000;37.8
