@@ -43,6 +43,13 @@ public class ParseFile {
 
         // TODO: Vypsat všechny řádky jako objekty (třídy Country)
 
+        // TODO: Do konzole vypsat: zeme s nejvetsim avgAge a nejmensi populaci
+        
+        double maxAvgAge = Long.MIN_VALUE;
+        long minPopulation = Long.MAX_VALUE;
+        String maxAvgAgeCountry = "";
+        String minPopulationCountry = "";
+
         while(di.hasNext()) {
             String line = di.readLine();
             String[] tokens = line.split(";");
@@ -59,11 +66,24 @@ public class ParseFile {
                     avgAge
             );
             System.out.println(oneCountry);
-
+            
+            if(oneCountry.avgAge > maxAvgAge) {
+                maxAvgAge = oneCountry.avgAge;
+                maxAvgAgeCountry = oneCountry.name;
+            }
+            if(oneCountry.population < minPopulation) {
+                minPopulation = oneCountry.population;
+                minPopulationCountry = oneCountry.name;
+            }
+            
             if(oneCountry.continent.equals("Europe")) {
                 de.writeLine(oneCountry.toString());
             }
         }
+
+        System.out.println(maxAvgAge);
+        System.out.println(minPopulation);
+
         de.finishExport();
         di.finishImport();
     }
