@@ -1,0 +1,250 @@
+Notebook Basic 001;Gaming;15;673.02
+Mouse Basic 002;Furniture;18
+Keyboard Basic 003;Peripherals;70;2218.12
+Monitor Basic 004;Electronics;12
+USB Cable Basic 005;Electronics;72
+Headphones Basic 006;Lifestyle;54
+Webcam Basic 007;Home
+Desk Lamp Basic 008;Mobile;55;8538.25
+Office Chair Basic 009;Home;44;2599.15
+Desk Basic 010;Networking;109;8630.70
+SSD Basic 011;Electronics;94;11511.65
+RAM Basic 012;Peripherals;49;2015.06
+Graphics Card Basic 013;Gaming;80;22141.02
+Power Bank Basic 014;Furniture;91
+Phone Stand Basic 015;Home
+Backpack Basic 016;Tools;13
+Laptop Sleeve Basic 017;Tools;47;4107.22
+Water Bottle Basic 018;Gaming;35
+Smartphone Basic 019;Accessories;78
+Tablet Basic 020;Furniture;21;11582.39
+Router Basic 021;Peripherals;82;17218.64
+Ethernet Cable Basic 022;Networking;108;19218.42
+Network Switch Basic 023;Tools;5;20134.89
+Printer Basic 024;Accessories;28
+Paper Pack Basic 025;Mobile;41
+Stapler Basic 026;Peripherals;118;16088.15
+Microphone Basic 027;Office;32
+External HDD Basic 028;Mobile;75
+Flash Drive Basic 029;Networking;29;24932.28
+Card Reader Basic 030;Bags
+Docking Station Basic 031;Office;81
+Bluetooth Speaker Basic 032;Audio;9
+Smart Watch Basic 033;Bags;68
+Fitness Band Basic 034;Electronics;88
+Mechanical Keyboard Basic 035;Lifestyle;97
+Wireless Mouse Basic 036;Accessories;38
+Gaming Mouse Basic 037;Mobile
+Gaming Headset Basic 038;Home;23;12715.66
+Mouse Pad Basic 039;Gaming;39
+Desk Mat Basic 040;Furniture;20;9378.15
+USB Hub Basic 041;Home;119;13281.32
+USB Adapter Basic 042;Networking
+HDMI Cable Basic 043;Peripherals;107;20178.03
+DisplayPort Cable Basic 044;Furniture;113;14204.56
+Charging Cable Basic 045;Mobile
+Wireless Charger Basic 046;Lifestyle;99
+Wall Charger Basic 047;Lifestyle
+Car Charger Basic 048;Storage
+Laptop Stand Basic 049;Mobile;26;17837.08
+Monitor Arm Basic 050;Gaming
+Tripod Basic 051;Bags;16;6234.25
+Camera Bag Basic 052;Electronics;76
+Action Camera Basic 053;Electronics;10;17709.63
+Digital Camera Basic 054;Accessories;116;832.75
+Memory Card Basic 055;Lifestyle;31
+SD Adapter Basic 056;Lifestyle
+Portable SSD Basic 057;Audio;61
+NAS Drive Basic 058;Storage;25
+WiFi Adapter Basic 059;Networking
+Bluetooth Adapter Basic 060;Electronics;87
+Access Point Basic 061;Electronics
+Modem Basic 062;Accessories;32
+Firewall Appliance Basic 063;Office;55
+Patch Cable Basic 064;Tools
+Patch Panel Basic 065;Tools;71
+Server Rack Basic 066;Lifestyle;108;417.21
+UPS Basic 067;Home;109;5946.67
+Surge Protector Basic 068;Bags
+Extension Cord Basic 069;Office;49;102.78
+Power Strip Basic 070;Peripherals;101;19637.98
+Label Printer Basic 071;Mobile;94
+Scanner Basic 072;Mobile;63;3911.18
+Projector Basic 073;Electronics;75;18405.64
+Projector Screen Basic 074;Networking;8
+Presentation Remote Basic 075;Peripherals;110;13300.60
+Whiteboard Basic 076;Lifestyle;11;21290.00
+Notebook Stand Basic 077;Accessories;87;21551.39
+Document Holder Basic 078;Peripherals;73
+Calculator Basic 079;Audio;11
+Shredder Basic 080;Lifestyle;41;23369.92
+Desk Organizer Basic 081;Mobile;41;6004.21
+Pen Holder Basic 082;Gaming;83;7533.93
+Storage Box Basic 083;Home;120
+Filing Cabinet Basic 084;Audio;13;1876.85
+Bookshelf Basic 085;Components
+Floor Lamp Basic 086;Peripherals;32;9268.70
+Table Lamp Basic 087;Tools;70
+LED Strip Basic 088;Home;84
+Smart Bulb Basic 089;Lifestyle;39;23296.31
+Smart Plug Basic 090;Peripherals
+Thermometer Basic 091;Mobile;71;3927.43
+Digital Clock Basic 092;Furniture;92
+Alarm Clock Basic 093;Tools;34;12658.96
+Coffee Mug Basic 094;Peripherals;109
+Travel Mug Basic 095;Tools;36;1148.96
+Lunch Box Basic 096;Office;82;24494.96
+Umbrella Basic 097;Bags;71
+Key Holder Basic 098;Accessories;10
+Wallet Basic 099;Office;70;947.90
+Messenger Bag Basic 100;Lifestyle;19;10772.18
+Notebook Plus 101;Networking
+Mouse Plus 102;Electronics;116
+Keyboard Plus 103;Gaming;14
+Monitor Plus 104;Tools;53
+USB Cable Plus 105;Peripherals;120;5955.60
+Headphones Plus 106;Home;104;4466.46
+Webcam Plus 107;Office
+Desk Lamp Plus 108;Storage;103
+Office Chair Plus 109;Furniture;35
+Desk Plus 110;Storage;112
+SSD Plus 111;Furniture;105;22964.37
+RAM Plus 112;Tools;102;21788.51
+Graphics Card Plus 113;Gaming;25;9990.73
+Power Bank Plus 114;Accessories;99
+Phone Stand Plus 115;Storage;87
+Backpack Plus 116;Electronics;15;21931.11
+Laptop Sleeve Plus 117;Audio;34
+Water Bottle Plus 118;Networking;94;19670.38
+Smartphone Plus 119;Lifestyle;15
+Tablet Plus 120;Components;6;17733.19
+Router Plus 121;Peripherals;104
+Ethernet Cable Plus 122;Mobile;95;16781.18
+Network Switch Plus 123;Accessories;86
+Printer Plus 124;Gaming
+Paper Pack Plus 125;Lifestyle;40;16687.98
+Stapler Plus 126;Mobile;38;13881.59
+Microphone Plus 127;Gaming
+External HDD Plus 128;Audio;73
+Flash Drive Plus 129;Electronics;39;7207.50
+Card Reader Plus 130;Audio;78
+Docking Station Plus 131;Bags;87
+Bluetooth Speaker Plus 132;Peripherals;102
+Smart Watch Plus 133;Components;66
+Fitness Band Plus 134;Accessories;105;23801.39
+Mechanical Keyboard Plus 135;Components;29;20172.74
+Wireless Mouse Plus 136;Electronics;32
+Gaming Mouse Plus 137;Home
+Gaming Headset Plus 138;Audio;25;17971.73
+Mouse Pad Plus 139;Storage;32
+Desk Mat Plus 140;Peripherals
+USB Hub Plus 141;Home
+USB Adapter Plus 142;Mobile;67
+HDMI Cable Plus 143;Peripherals;109;3076.90
+DisplayPort Cable Plus 144;Bags;86
+Charging Cable Plus 145;Networking;97
+Wireless Charger Plus 146;Mobile
+Wall Charger Plus 147;Lifestyle;58
+Car Charger Plus 148;Bags;58;6515.83
+Laptop Stand Plus 149;Gaming;36
+Monitor Arm Plus 150;Gaming;31;6900.21
+Tripod Plus 151;Components;31;6828.29
+Camera Bag Plus 152;Lifestyle;11;3501.43
+Action Camera Plus 153;Mobile;20;17674.16
+Digital Camera Plus 154;Storage;43;13587.15
+Memory Card Plus 155;Furniture
+SD Adapter Plus 156;Audio
+Portable SSD Plus 157;Audio
+NAS Drive Plus 158;Components
+WiFi Adapter Plus 159;Tools;54
+Bluetooth Adapter Plus 160;Home;78
+Access Point Plus 161;Components;56;12165.77
+Modem Plus 162;Gaming;87
+Firewall Appliance Plus 163;Tools
+Patch Cable Plus 164;Lifestyle;4
+Patch Panel Plus 165;Gaming;4;2143.49
+Server Rack Plus 166;Tools;60;4583.14
+UPS Plus 167;Networking;28;11393.75
+Surge Protector Plus 168;Peripherals
+Extension Cord Plus 169;Storage;33
+Power Strip Plus 170;Mobile
+Label Printer Plus 171;Furniture
+Scanner Plus 172;Electronics;97;823.20
+Projector Plus 173;Tools;3;15551.32
+Projector Screen Plus 174;Bags
+Presentation Remote Plus 175;Bags;90;6442.28
+Whiteboard Plus 176;Audio;78
+Notebook Stand Plus 177;Home;105;4134.96
+Document Holder Plus 178;Audio;4
+Calculator Plus 179;Peripherals;49
+Shredder Plus 180;Accessories;76
+Desk Organizer Plus 181;Accessories
+Pen Holder Plus 182;Audio
+Storage Box Plus 183;Home;6;8711.73
+Filing Cabinet Plus 184;Networking;9;12672.72
+Bookshelf Plus 185;Tools;54;20566.16
+Floor Lamp Plus 186;Networking;82
+Table Lamp Plus 187;Office;56
+LED Strip Plus 188;Gaming
+Smart Bulb Plus 189;Home
+Smart Plug Plus 190;Audio;35;8090.50
+Thermometer Plus 191;Peripherals;12
+Digital Clock Plus 192;Home;60
+Alarm Clock Plus 193;Networking;4;12381.95
+Coffee Mug Plus 194;Bags;28;8901.88
+Travel Mug Plus 195;Components
+Lunch Box Plus 196;Lifestyle;2;12938.85
+Umbrella Plus 197;Furniture;93
+Key Holder Plus 198;Furniture;89
+Wallet Plus 199;Bags;102;479.22
+Messenger Bag Plus 200;Storage;89
+Notebook Pro 201;Networking;61;13858.15
+Mouse Pro 202;Mobile;71
+Keyboard Pro 203;Components;40;6321.52
+Monitor Pro 204;Furniture;41
+USB Cable Pro 205;Home;89;4668.49
+Headphones Pro 206;Bags
+Webcam Pro 207;Lifestyle;77;7109.82
+Desk Lamp Pro 208;Furniture;38;5724.70
+Office Chair Pro 209;Electronics;91;13375.67
+Desk Pro 210;Electronics
+SSD Pro 211;Gaming;112;18831.16
+RAM Pro 212;Electronics;74
+Graphics Card Pro 213;Networking;24;24138.17
+Power Bank Pro 214;Tools;62;2895.47
+Phone Stand Pro 215;Bags;10
+Backpack Pro 216;Office
+Laptop Sleeve Pro 217;Accessories
+Water Bottle Pro 218;Audio;77;19777.98
+Smartphone Pro 219;Lifestyle;49;11289.34
+Tablet Pro 220;Tools;76;24750.28
+Router Pro 221;Audio;8
+Ethernet Cable Pro 222;Home;27;15655.60
+Network Switch Pro 223;Accessories;21
+Printer Pro 224;Office;1
+Paper Pack Pro 225;Bags;38;863.36
+Stapler Pro 226;Components;90;21496.19
+Microphone Pro 227;Furniture
+External HDD Pro 228;Audio;85;20106.45
+Flash Drive Pro 229;Accessories;70;5658.00
+Card Reader Pro 230;Components;106;3597.80
+Docking Station Pro 231;Home
+Bluetooth Speaker Pro 232;Peripherals;37
+Smart Watch Pro 233;Components;90;10091.59
+Fitness Band Pro 234;Lifestyle;64
+Mechanical Keyboard Pro 235;Peripherals;56
+Wireless Mouse Pro 236;Electronics;12
+Gaming Mouse Pro 237;Tools;74;14697.72
+Gaming Headset Pro 238;Home;87
+Mouse Pad Pro 239;Home;97
+Desk Mat Pro 240;Bags
+USB Hub Pro 241;Storage
+USB Adapter Pro 242;Bags;45;10237.28
+HDMI Cable Pro 243;Accessories;110;4061.58
+DisplayPort Cable Pro 244;Bags;37;16580.46
+Charging Cable Pro 245;Home;71;964.59
+Wireless Charger Pro 246;Components
+Wall Charger Pro 247;Tools;66;20630.93
+Car Charger Pro 248;Tools;70;11575.31
+Laptop Stand Pro 249;Lifestyle;47
+Monitor Arm Pro 250;Bags;98;1336.71
