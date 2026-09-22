@@ -1,4 +1,4 @@
-package tests;
+package exams;
 
 import fileworks.DataExport;
 import fileworks.DataImport;
