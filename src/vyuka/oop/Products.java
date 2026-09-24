@@ -2,6 +2,8 @@ package vyuka.oop;
 
 import fileworks.DataImport;
 
+import java.util.ArrayList;
+
 class Product {
     private String name;
     private String category;
@@ -29,7 +31,7 @@ class Product {
     }
 
     public void setAmount(int amount) {
-        if(amount >= 0) this.amount = amount;
+        if (amount >= 0) this.amount = amount;
         else this.amount = 0;
     }
 
@@ -38,7 +40,7 @@ class Product {
     }
 
     public void setPricePerPiece(double pricePerPiece) {
-        if(pricePerPiece > 0) this.pricePerPiece = pricePerPiece;
+        if (pricePerPiece > 0) this.pricePerPiece = pricePerPiece;
         else this.pricePerPiece = 0;
     }
 
@@ -71,17 +73,30 @@ class Product {
 public class Products {
     public static void main(String[] args) {
         DataImport di = new DataImport("data/products.txt");
-        while(di.hasNext()) {
-            String[] tokens = di.readLine().split(";");
-            Product product = new Product(tokens[0], tokens[1], 0, 0.0);
-            if (tokens.length == 3) {
-                product.setAmount(Integer.parseInt(tokens[2]));
-            } else {
-                product.setAmount(Integer.parseInt(tokens[2]));
-                product.setPricePerPiece(Double.parseDouble(tokens[3]));
+
+        String line;
+        ArrayList<Product> products = new ArrayList<>();
+        String[] params;
+        Product product = null;
+        while (di.hasNext()) {
+            line = di.readLine();
+            params = line.split(";");
+//            if(params.length == 4) System.out.println("neco");
+//            if(params.length == 3) System.out.println("neco");
+//            if(params.length == 2) System.out.println("neco");
+            switch (params.length) {
+                case 4: product = new Product(params[0], params[1], Integer.parseInt(params[2]), Double.parseDouble(params[3]));
+                    break;
+                case 3: product = new Product(params[0], params[1], Integer.parseInt(params[2]));
+                    break;
+                case 2: product = new Product(params[0], params[1]);
+                    break;
+                default:
+                    System.out.println("Tento řádek nemá validní délku: " + line);
             }
-            System.out.println(product.toString());
+            products.add(product);
         }
+
         di.finishImport();
     }
 }
