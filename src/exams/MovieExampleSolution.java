@@ -1,4 +1,4 @@
-package tests;
+package exams;
 
 import fileworks.DataExport;
 import fileworks.DataImport;
@@ -19,6 +19,10 @@ class Movie{
         this.rating = rating;
     }
 
+    /**
+     * Tady tohle bude defaultni stringovy vystup z volani metody
+     * @return Stringovou reprezantaci filmu
+     */
     @Override
     public String toString() {
         return "Movie{" +
