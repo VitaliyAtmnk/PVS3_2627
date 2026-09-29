@@ -1,4 +1,4 @@
-package oop;
+package oop2;
 
 class Product {
     private String name;
