@@ -1,5 +1,9 @@
 package oop2;
 
+import fileworks.DataImport;
+
+import java.util.ArrayList;
+
 class Product {
     private String name;
     private String category;
@@ -27,11 +31,8 @@ class Product {
     }
 
     public void setAmount(int amount) {
-        if (amount >= 0) {
-            this.amount = amount;
-        } else {
-            this.amount = 0;
-        }
+        if (amount >= 0) this.amount = amount;
+        else this.amount = 0;
     }
 
     public double getPricePerPiece() {
@@ -39,12 +40,8 @@ class Product {
     }
 
     public void setPricePerPiece(double pricePerPiece) {
-        if(pricePerPiece > 0){
-            this.pricePerPiece = pricePerPiece;
-        }
-        else {
-            this.pricePerPiece = 0;
-        }
+        if (pricePerPiece > 0) this.pricePerPiece = pricePerPiece;
+        else this.pricePerPiece = 0;
     }
 
     public Product(String name, String category) {
@@ -57,7 +54,7 @@ class Product {
         this.amount = amount;
     }
 
-    public Product(String name, String category, int amount, int pricePerPiece) {
+    public Product(String name, String category, int amount, double pricePerPiece) {
         this(name, category, amount);
         this.pricePerPiece = pricePerPiece;
     }
@@ -75,7 +72,31 @@ class Product {
 
 public class Products {
     public static void main(String[] args) {
-    // načíst celý soubor a vypsat počet kusů na skladu
+        DataImport di = new DataImport("data/products.txt");
 
+        String line;
+        ArrayList<Product> products = new ArrayList<>();
+        String[] params;
+        Product product = null;
+        while (di.hasNext()) {
+            line = di.readLine();
+            params = line.split(";");
+//            if(params.length == 4) System.out.println("neco");
+//            if(params.length == 3) System.out.println("neco");
+//            if(params.length == 2) System.out.println("neco");
+            switch (params.length) {
+                case 4: product = new Product(params[0], params[1], Integer.parseInt(params[2]), Double.parseDouble(params[3]));
+                    break;
+                case 3: product = new Product(params[0], params[1], Integer.parseInt(params[2]));
+                    break;
+                case 2: product = new Product(params[0], params[1]);
+                    break;
+                default:
+                    System.out.println("Tento řádek nemá validní délku: " + line);
+            }
+            products.add(product);
+        }
+
+        di.finishImport();
     }
 }
