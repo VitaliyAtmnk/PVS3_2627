@@ -1,4 +1,4 @@
-package oop;
+package vyuka.oop;
 
 public class Basics {
 
