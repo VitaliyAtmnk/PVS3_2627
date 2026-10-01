@@ -78,11 +78,10 @@ class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "name='" + name + '\'' +
-                ", category='" + productCategory + '\'' +
+                        name +
+                " ( + productCategory)"   +
                 ", amount=" + amount +
-                ", pricePerPiece=" + pricePerPiece +
-                '}';
+                " $ "+ pricePerPiece + '\n';
     }
 }
 
@@ -116,10 +115,9 @@ public class Products {
                     break;
             }
             products.add(product);
-            System.out.println(line);
         }
 
-
+        System.out.println(products);
         di.finishImport();
 
 //      ukazka zakomentovaneho konstruktoru + null pointer exception
