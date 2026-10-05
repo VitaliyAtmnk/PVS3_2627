@@ -1,0 +1,70 @@
+Iron Man;2008;Action;8.6
+Gone Girl;2014;Thriller;8.1
+Kill Bill: Vol. 2;2004;Action;8.7
+It Follows;2014;Horror;6.8
+Inception;2010;Action;8.8
+A Quiet Place;2018;Horror;7.5
+Skyfall;2012;Action;7.7
+Kill Bill: Vol. 2;2004;Action;8.7
+The Invisible Man;2020;Thriller;7.1
+Kill Bill: Vol. 1;2003;Action;8.9
+Chronicles of Celestia;2019;Fantasy;8.3
+Starlight Serenade;2011;Romance;7.6
+Whispers in the Wind;2018;Drama;6.8
+300;2006;Action;7.6
+Kill Bill: Vol. 2;2004;Action;8.7
+The Departed;2006;Thriller;8.5
+Inglourious Basterds;2009;Action;8.3
+Mad Max: Fury Road;2015;Action;8.1
+Pulp Fiction;1994;Crime;9.5
+Shadowed Secrets;2018;Mystery;8.2
+The Shining;1980;Horror;8.8
+Whimsical Whispers;2014;Comedy;6.7
+Casino Royale;2006;Action;8.0
+Labyrinth of Legends;2016;Adventure;8.1
+The Blair Witch Project;1999;Horror;6.5
+Quantum Quest;2012;Sci-Fi;8.3
+Psycho;1960;Horror;8.7
+Spider-Man 2;2004;Action;8.2
+Memento;2000;Thriller;8.4
+Let the Right One In;2008;Horror;7.9
+Batman Begins;2005;Action;8.3
+The Witch;2015;Horror;6.9
+The Lord of the Rings: The Fellowship of the Ring;2001;Fantasy;10.3
+Velvet Shadows;2021;Horror;8.7
+Paranormal Activity;2007;Horror;6.3
+Echoes of Eden;2017;Drama;7.5
+Galactic Odyssey;2015;Sci-Fi;7.2
+The Ring;2002;Horror;7.1
+Shutter Island;2010;Thriller;8.1
+Quantum Quandary;2022;Thriller;9.1
+Midnight Serenade;2016;Romance;7.5
+John Wick;2014;Action;7.4
+The Others;2001;Horror;7.6
+Ethereal Elegance;2019;Drama;7.7
+The Conjuring;2013;Horror;7.5
+Radiant Reverie;2018;Science Fiction;9.0
+The Lord of the Rings: The Two Towers;2002;Fantasy;10.2
+The Avengers;2012;Action;8.1
+Pinnacle of Peril;2011;Thriller;7.4
+Gladiator;2000;Action;8.5
+The Sixth Sense;1999;Horror;8.1
+A Nightmare on Elm Street;1984;Horror;8.2
+Get Out;2017;Horror;8.6
+The Dark Knight;2008;Action;9.0
+Avatar;2009;Action;8.8
+Joker;2019;Thriller;8.4
+Saw;2004;Horror;7.6
+Crouching Tiger, Hidden Dragon;2000;Action;8.3
+Shattered Illusions;2014;Action;6.9
+The Expendables;2010;Action;6.5
+Carnival of Dreams;2013;Fantasy;8.9
+The Enigmatic Echo;2020;Mystery;8.5
+Mystic Melodies;2015;Musical;8.5
+The Bourne Identity;2002;Action;8.1
+The Matrix;1999;Action;9.0
+Celestial Symphony;2015;Musical;8.8
+The Lord of the Rings: The Return of the King;2003;Fantasy;10.3
+The Silence of the Lambs;1991;Thriller;8.6
+Insidious;2010;Horror;6.8
+Midnight Mirage;2013;Thriller;7.1
