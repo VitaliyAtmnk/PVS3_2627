@@ -28,8 +28,6 @@ public class Basics {
         Basics obj3 = new Basics("asdasda");
 
         obj.soucet(1.0, 5);
-        for (int i = 0, j = 2; i < 10; i++, j+=2) {
-            System.out.println(i+j);
-        }
+
     }
 }
