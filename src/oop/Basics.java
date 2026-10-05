@@ -3,7 +3,7 @@ package oop;
 public class Basics {
     public static void main(String[] args) {
 
-        obj.soucet(1.0, 5);
+//        obj.soucet(1.0, 5);
 
         for (int i = 0, j = 2; i < 10; i++, j+=2) {
             System.out.println(i+j);
