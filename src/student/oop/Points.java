@@ -56,9 +56,7 @@ public class Points {
             this.y = y;
         }
 
-        public double getZ() {
-            return z;
-        }
+        public double getZ() {return z;}
 
         public void setZ(double z) {
             this.z = z;
