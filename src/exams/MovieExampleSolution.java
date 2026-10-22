@@ -1,4 +1,4 @@
-package exams;
+/*package exams;
 
 import fileworks.DataExport;
 import fileworks.DataImport;
@@ -23,6 +23,7 @@ class Movie{
      * Tady tohle bude defaultni stringovy vystup z volani metody
      * @return Stringovou reprezantaci filmu
      */
+/*
     @Override
     public String toString() {
         return "Movie{" +
@@ -89,3 +90,4 @@ public class MovieExampleSolution {
 
     }
 }
+*/

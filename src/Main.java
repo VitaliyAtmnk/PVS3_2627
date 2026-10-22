@@ -15,14 +15,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        int a = 5;
-        System.out.println(a);
-        doSomething(a);
-        System.out.println(a);
-        int[] arr = {1, 5, 10};
-        System.out.println(arr[1]);
-        doSomethingElse(arr);
-        System.out.println(arr[1]);
-
+        System.out.println("Nothing to see here.");
+        System.out.println("Atamanjuk goat");
     }
 }
