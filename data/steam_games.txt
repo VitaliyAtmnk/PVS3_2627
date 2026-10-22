@@ -2,7 +2,7 @@ Counter-Strike 2	0.0	8632939	For over two decades, Counter-Strike has offered an
 PUBG: BATTLEGROUNDS	0.0	2513842	Play PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds. Squad up and join the Battlegrounds for the original Battle Royale experience that only PUBG: BATTLEGROUNDS can offer.
 Dota 2	0.0	2452595	Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.
 Grand Theft Auto V Legacy	0.0	1803832	Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.
-Tom Clancy's Rainbow Six® Siege	3.99	1168020	Tom Clancy's Rainbow Six® Siege is an elite, tactical team-based shooter where superior planning and execution triumph.
+Tom Clancy's Rainbow Six® Siege 3.99    1168020 Tom Clancy's Rainbow Six® Siege is an elite, tactical team-based shooter where superior planning and execution triumph.
 Team Fortress 2	0.0	1146642	Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!
 Terraria	9.99	1102434	Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!
 Rust	39.99	993856	
