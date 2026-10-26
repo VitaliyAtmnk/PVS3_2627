@@ -1,0 +1,6 @@
+Theodore Roosvelt,Hunter,H,H,H,H,H
+George Patton,Soldier,K,K,K,H,K,K,K,K,K,K,H
+Robert Duvall,Soldier,K,H,K,K,M,K,H,H,K,K,K,M,H
+Vesemir,Witcher,K,M,H,K,K,M,M
+Geralt,Witcher,M,M,M,H,K,H,K,M
+Hunter Biden,Hunter,H,M,K,H,H,H,H,H
