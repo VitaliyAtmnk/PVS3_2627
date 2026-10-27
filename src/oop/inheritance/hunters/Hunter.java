@@ -13,4 +13,12 @@ public class Hunter {
         System.out.println(name + " is hunting a beast.");
         gold += 10;
     }
+
+    @Override
+    public String toString() {
+        return "Hunter{" +
+                "gold=" + gold +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
