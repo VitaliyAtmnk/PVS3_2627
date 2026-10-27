@@ -6,8 +6,10 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class HuntingSeason {
+    private static final int SEED = 123456789;
+
     static void randomJob(Hunter hunter) {
-        Random rng = new Random();
+        Random rng = new Random(SEED);
         int random = rng.nextInt(1, 4);
         switch (random) {
             case 1:
@@ -24,22 +26,40 @@ public class HuntingSeason {
         }
     }
 
+    static void processTasks(Hunter hunter, String[] taskList) {
+        // Preskakuji jmeno + roli (alternativa kopie pole)
+        for (int i = 2; i < taskList.length; i++) {
+            switch (taskList[i]) {
+                case "M":
+                    if (hunter instanceof Witcher) ((Witcher) hunter).slayMonster();
+                    else hunter.gold -= 10;
+                    break;
+                case "K":
+                    if (hunter instanceof Soldier) ((Soldier) hunter).killBandits();
+                    else hunter.gold -= 10;
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         DataImport di = new DataImport("data/hunters.txt");
 
         ArrayList<Hunter> hunters = new ArrayList<>();
 
         while(di.hasNext()) {
-            String[] hunter = di.readLine().split(",");
-            switch (hunter[1]) {
+            String[] stringParams = di.readLine().split(",");
+            switch (stringParams[1]) {
                 case "Hunter":
-                    hunters.add(new Hunter(hunter[0],hunter[1]));
+                    hunters.add(new Hunter(stringParams[0]));
                     break;
                 case "Soldier":
-                    hunters.add(new Soldier(hunter[0],hunter[1]));
+                    hunters.add(new Soldier(stringParams[0]));
                     break;
                 case "Wither":
-                    hunters.add(new Witcher(hunter[0],hunter[1]));
+                    hunters.add(new Witcher(stringParams[0]));
                     break;
             }
         }
@@ -54,7 +74,7 @@ public class HuntingSeason {
 
         int jobsNum = 100;
 
-        Random rng = new Random();
+        Random rng = new Random(SEED);
         int randomIndex;
 
         for (int i = 0; i < jobsNum; i++) {
