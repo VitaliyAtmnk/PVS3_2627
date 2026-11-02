@@ -143,10 +143,6 @@ public class HuntingSeason {
             }
         }
 
-
-
         System.out.println("\n " + bestHunter.toString());
     }
-
-
 }
