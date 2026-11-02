@@ -1,9 +1,8 @@
 package oop.inheritance;
 
-import java.sql.SQLOutput;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import vlastni.examy.CardiacSurgeon;
+import vlastni.examy.Doctor;
+import vlastni.examy.Surgeon;
 
 public class Hospital {
 

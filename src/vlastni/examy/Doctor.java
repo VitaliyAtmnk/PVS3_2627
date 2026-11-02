@@ -1,17 +1,18 @@
-package oop.inheritance;
+package vlastni.examy;
 
 public class Doctor {
     final static int BASE_SALARY = 50000;
 
-   protected String name;
-    int salary;
 
-    Doctor(String name){
+    public String name;
+    public int salary;
+
+    public Doctor(String name){
         this.name = name;
         salary = BASE_SALARY;
     }
 
-    void diagnose(){
+    public void diagnose(){
         System.out.println("Figuring out what's wrong with you...");
         salary += 10000;
     }

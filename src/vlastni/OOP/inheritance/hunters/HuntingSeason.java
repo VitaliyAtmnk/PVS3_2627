@@ -7,7 +7,9 @@ public class HuntingSeason {
 
     public static void main(String[] args) {
 
+
         ArrayList<Hunter> hunters = new ArrayList<>();
+
         hunters.add(new Hunter("Theodore Roosvelt"));
         hunters.add(new Soldier("Jack Carter"));
         hunters.add(new Soldier("Ondřej Wislocki"));
