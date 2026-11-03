@@ -23,7 +23,7 @@ import java.util.ArrayList;
 //   Procentualni zastoupeni zamestnancu. (příklad: 50% Doktoři, 35% Chirurgové, 15% Kardiochirurgové)
 //   Kdo způsobil největší penalizaci nemocnici
 
-public class Hospital {
+public class HospitalTest {
 
     static int[] validateJob(Doctor d, String[] jobType) {
         // TODO: implementujte logiku validace práce:
