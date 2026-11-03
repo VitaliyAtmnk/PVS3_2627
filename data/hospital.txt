@@ -1,0 +1,5 @@
+Doktor s nejmenším výdělkem se jmenuje Emily Gonzalez a vydělal 50000
+Doktor s největším výdělkem se jmenuje Sophia Davis a vydělal 310000
+Počet penalizací: 1210
+Počet operací srdce: 323
+Průměrný plat: 141600.0
