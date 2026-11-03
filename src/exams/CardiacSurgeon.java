@@ -1,4 +1,4 @@
-package oop.inheritance;
+package exams;
 
 public class CardiacSurgeon extends Surgeon {
 
@@ -6,11 +6,9 @@ public class CardiacSurgeon extends Surgeon {
     public CardiacSurgeon(String name) {
         super(name);
         salary += CS_BONUS;
-
-
     }
 
-    void cardiacSurgery() {
+    public void cardiacSurgery() {
         System.out.println("Cut my heart into pieces...");
         salary += 30_000;
     }

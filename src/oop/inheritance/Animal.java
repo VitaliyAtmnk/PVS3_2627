@@ -16,10 +16,7 @@ public class Animal {
         this.energy = energy;
     }
 
-    public Animal(String name, double energy){
-        this.name = name;
-        this.energy = energy;
-    }
+
 
     public void eat() {
         energy += Math.exp(-energy);
@@ -73,24 +70,7 @@ class Pig extends Animal {
     }
 }
 
-class Pig extends Animal{
-    int mudLevel;
 
-    public Pig(String name, double energy, int mudLevel) {
-        super(name, energy);
-        this.mudLevel = mudLevel;
-    }
-
-    void playInMud(){
-        mudLevel += 10;
-        mudLevel = Math.min(mudLevel, 100);
-    }
-
-    @Override
-    public void makeNoise() {
-        System.out.println("Oink");
-    }
-}
 
 class Main {
     public static void main(String[] args) {

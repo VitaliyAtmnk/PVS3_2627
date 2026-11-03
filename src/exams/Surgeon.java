@@ -1,4 +1,4 @@
-package oop.inheritance;
+package exams;
 
 public class Surgeon extends Doctor {
     final static int SURGEON_BONUS = 25_000;
@@ -8,7 +8,7 @@ public class Surgeon extends Doctor {
         salary += SURGEON_BONUS;
     }
 
-    void surgery() {
+    public void surgery() {
         System.out.println("Cutting you open...");
         salary += 20_000;
     }
