@@ -1,5 +1,6 @@
 package oop.inheritance;
-public class CardiacSurgeon extends Surgeon {
+
+public class CardiacSurgeon extends Surgeon{
 
     final static int CS_BONUS = 35000;
 
