@@ -1,4 +1,4 @@
-package oop;
+package vyuka.oop;
 
 import basics.Country;
 import fileworks.DataImport;
