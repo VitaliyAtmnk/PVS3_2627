@@ -2,9 +2,6 @@ package exams;
 
 import fileworks.DataExport;
 import fileworks.DataImport;
-import oop.inheritance.CardiacSurgeon;
-import oop.inheritance.Doctor;
-import oop.inheritance.Surgeon;
 
 import java.util.ArrayList;
 import java.util.List;
