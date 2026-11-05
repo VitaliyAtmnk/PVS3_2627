@@ -6,7 +6,7 @@ public class Doctor {
    protected String name;
     int salary;
 
-    Doctor(String name){
+    public Doctor(String name){
         this.name = name;
         salary = BASE_SALARY;
     }
