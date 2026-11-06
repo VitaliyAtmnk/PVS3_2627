@@ -44,11 +44,6 @@ class Item implements Comparable<Item>{
 
     @Override
     public int compareTo(Item o) {
-        return (int) (this.price - o.price);
+        return Double.compare(this.price, o.price);
     }
-
-//    @Override
-//    public int compareTo(Item o) {
-//        return this.quantity - o.quantity;
-//    }
 }
