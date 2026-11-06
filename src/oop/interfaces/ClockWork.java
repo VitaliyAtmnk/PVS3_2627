@@ -13,6 +13,7 @@ public class ClockWork {
 
         TimeSupport[] timeSupports = {watch, clock};
         timeSupports[0].displayTime();
+
     }
 }
 class DigitalClock implements TimeSupport{
