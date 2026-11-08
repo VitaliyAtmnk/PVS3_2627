@@ -1,4 +1,4 @@
-package oop.inheritance;
+package exams;
 
 public class CardiacSurgeon extends Surgeon{
 

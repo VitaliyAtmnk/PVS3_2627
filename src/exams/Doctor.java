@@ -1,10 +1,10 @@
-package oop.inheritance;
+package exams;
 
 public class Doctor {
     final static int BASE_SALARY = 50000;
 
-    protected String name;
-    int salary;
+    public String name;
+    public int salary;
 
     public int getSalary() {
         return salary;
