@@ -6,7 +6,7 @@ public class Soldier extends Hunter{
         gold += 40;
     }
 
-    void killBandits(){
+    public void killBandits(){
         System.out.println(name + " is going againts bandits.");
         gold += 100;
     }
