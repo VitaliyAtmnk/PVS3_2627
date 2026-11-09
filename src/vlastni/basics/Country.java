@@ -1,6 +1,8 @@
 package vlastni.basics;
 
-public class Country {
+import java.util.Comparator;
+
+public class Country implements Comparable<Country>{
     String name, continent;
     long population;
     double avgAge;
@@ -45,4 +47,17 @@ public class Country {
                 ", avgAge=" + avgAge +
                 '}';
     }
+
+
+    @Override
+    public  int compareTo(Country o) {
+
+        return Integer.compare(this.name.length(),o.name.length());
+    }
+    public static Comparator<Country> BY_AVG_AGE = new Comparator<Country>() {
+        @Override
+        public int compare(Country o1, Country o2) {
+            return Double.compare(o1.avgAge,o2.avgAge);
+        }
+    };
 }
