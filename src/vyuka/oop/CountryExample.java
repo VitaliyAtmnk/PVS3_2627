@@ -3,9 +3,14 @@ package vyuka.oop;
 import basics.Country;
 import fileworks.DataImport;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class CountryExample {
     public static void main(String[] args) {
         DataImport di = new DataImport("data/countries.txt");
+
+        ArrayList<Country> countries = new ArrayList<>();
 
         // načíst celý soubor data/countires.txt
         while (di.hasNext()) {
@@ -17,14 +22,28 @@ public class CountryExample {
             long population = Long.parseLong(data[2]);
             double avgAge = Double.parseDouble(data[3]);
 
-            Country country = new Country(
-                    name,
-                    population,
-                    avgAge); // ZDE
+            countries.add(new Country(name, population, avgAge));
 
-            System.out.println(country);
+//            Country country = new Country(
+//                    name,
+//                    population,
+//                    avgAge); // ZDE
+
+//            System.out.println(country);
         }
 
+        Collections.sort(countries);
+
+        for (Country c : countries) {
+            System.out.println(c);
+        }
+
+        countries.sort(Country.BY_LIFE_LENGTH);
+        System.out.println();
+
+        for (Country c : countries){
+            System.out.println(c);
+        }
         di.finishImport();
     }
 }

@@ -20,10 +20,16 @@ public class ComparingBasics {
         items.add(new Item("Beef Steak", 100_000, 11.5));
 
         Collections.shuffle(items);
-
         printList(items);
+
         // seřaď podle defaultního (přirozrného) řazení
-        Collections.sort(items);
+        Collections.sort(items, Item.BY_PRICE.reversed()); // možnost 1
+
+        System.out.println();
+        printList(items);
+        Collections.shuffle(items);
+
+        items.sort(Item.BY_PRICE);
 
         System.out.println();
 
@@ -43,6 +49,23 @@ class Item implements Comparable<Item>{
     String name;
     int quantity;
     double price;
+
+    public static final Comparator<Item> BY_PRICE = new Comparator<Item>() {
+        @Override
+        public int compare(Item o1, Item o2) {
+            return Double.compare(o1.price, o2.price);
+        }
+    };
+
+    public static final Comparator<Item> BY_TOTAL_PRICE = new Comparator<Item>() {
+        @Override
+        public int compare(Item o1, Item o2) {
+            // TODO: Dodělat
+            double totalPrice1 = o1.price * o1.quantity;
+            double totalPrice2 = o2.price * o2.quantity;
+            return Double.compare(totalPrice1, totalPrice2);
+        }
+    };
 
     public Item(String name, int quantity, double price) {
         this.name = name;

@@ -1,6 +1,8 @@
 package basics;
 
-public class Country {
+import java.util.Comparator;
+
+public class Country implements Comparable<Country>{
     String name, continent;
     long population;
     double avgAge;
@@ -22,6 +24,13 @@ public class Country {
         setAvgAge(avgAge);
     }
 
+    public static final Comparator<Country> BY_LIFE_LENGTH = new Comparator<Country>() {
+        @Override
+        public int compare(Country o1, Country o2) {
+            return Double.compare(o1.avgAge, o2.avgAge);
+        }
+    };
+
     public void setPopulation(long population) {
         if (population < 10_000 || population > 2_000_000_000) {
             System.out.println("Population out of range");
@@ -41,5 +50,12 @@ public class Country {
     @Override
     public String toString() {
         return name + " (" + continent + ") [" + population + " people, average life expectancy: " + avgAge + "]";
+    }
+
+    @Override
+    public int compareTo(Country o) {
+        Integer length1 = name.length();
+        int length2 = o.name.length();
+        return length1.compareTo(length2);
     }
 }
