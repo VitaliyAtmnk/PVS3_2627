@@ -1,9 +1,9 @@
 package basics;
 
 public class Country {
-    String name, continent;
-    long population;
-    double avgAge;
+    public String name, continent;
+    public long population;
+    public double avgAge;
 
     // private static final int MAX_AVG_AGE = 101;
     // alt + insert

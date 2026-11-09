@@ -1,0 +1,6 @@
+Emma Martin, Salary: 140000
+Joseph Wilson, Salary: 50000
+Průměrný plat v nemocnici: 76970
+Počet operací srdce: 0
+Počet udělených penalizací: 2840
+Doktor s největším počtem penalizací: Sophia Lopez, Salary: 60000 9
