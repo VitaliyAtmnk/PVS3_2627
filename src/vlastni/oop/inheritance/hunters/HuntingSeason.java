@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance.hunters;
+package vlastni.oop.inheritance.hunters;
 
 import java.util.ArrayList;
 import java.util.Random;

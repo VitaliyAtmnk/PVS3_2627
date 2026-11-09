@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance;
+package vlastni.oop.inheritance;
 
 import fileworks.DataImport;
 

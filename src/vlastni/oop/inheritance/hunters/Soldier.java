@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance.hunters;
+package vlastni.oop.inheritance.hunters;
 
 public class Soldier extends Hunter{
     public Soldier(String name) {

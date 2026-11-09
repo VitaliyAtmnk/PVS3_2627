@@ -1,4 +1,4 @@
-package vlastni.OOP.interfaces;
+package vlastni.oop.interfaces;
 
 public class ClockWork {
     public static void main(String[] args) {
@@ -62,7 +62,7 @@ class StopWatch implements TimeSupport {
         long duration = stop - start;
 
         double totalSeconds = duration / 1000.0;
-        int minutes = (int) (duration/60);
+        int minutes = (int) (totalSeconds/60);
         double seconds = totalSeconds % 60;
         System.out.println(minutes + ":" + seconds );
 

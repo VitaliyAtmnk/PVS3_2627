@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance;
+package vlastni.oop.inheritance;
 public class Hospital {
     public static void main(String[] args) {
         Doctor doctor = new Doctor("Jeff");

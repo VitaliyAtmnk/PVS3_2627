@@ -1,4 +1,4 @@
-package vlastni.OOP;
+package vlastni.oop;
 import vlastni.basics.Country;
 import fileworks.DataImport;
 

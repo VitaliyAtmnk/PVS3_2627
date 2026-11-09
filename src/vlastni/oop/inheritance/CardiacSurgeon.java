@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance;
+package vlastni.oop.inheritance;
 
 public class CardiacSurgeon extends Surgeon{
     final static int CS_BONUS = 35_000;

@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance;
+package vlastni.oop.inheritance;
 
 public class Doctor {
     final static int BASE_SALARY = 50000;

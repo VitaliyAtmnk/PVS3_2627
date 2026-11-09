@@ -1,4 +1,4 @@
-package vlastni.OOP.interfaces;
+package vlastni.oop.interfaces;
 
 public interface TimeSupport {
     void displayTime();

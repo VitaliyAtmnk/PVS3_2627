@@ -1,12 +1,6 @@
-package vlastni.OOP;
+package vlastni.oop;
 
-import fileworks.DataImport;
-
-import java.util.ArrayList;
-
-import java.util.ArrayList;
-
-    class Product {
+class Product {
         private String name;
         private String category;
         private int amount;

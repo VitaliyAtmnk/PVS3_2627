@@ -1,4 +1,4 @@
-package vlastni.OOP.inheritance.hunters;
+package vlastni.oop.inheritance.hunters;
 
 import fileworks.DataImport;
 
