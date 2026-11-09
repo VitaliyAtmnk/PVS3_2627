@@ -98,6 +98,8 @@ public class ParseFile {
                 worstPopulation.population = populace;
                 worstPopulation.avgAge = prumernyVek;
             }
+
+
         }
         System.out.println(bestAge);
         System.out.println(worstPopulation);

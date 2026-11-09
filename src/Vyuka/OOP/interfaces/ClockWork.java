@@ -1,6 +1,6 @@
 package Vyuka.OOP.interfaces;
 
-import oop.interfaces.TimeSupport;
+
 
 public class ClockWork {
     public static void main(String[] args) {

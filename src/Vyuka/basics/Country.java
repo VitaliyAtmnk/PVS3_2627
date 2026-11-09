@@ -1,5 +1,7 @@
 package Vyuka.basics;
 
+import java.util.Comparator;
+
 public class Country {
     String name;
     String continent;
@@ -20,6 +22,16 @@ public class Country {
         setAvgAge(avgAge);
 
     }
+
+    public static final Comparator<Country> BY_AVG_AGE = new Comparator<Country>() {
+        @Override
+        public int compare(Country o1, Country o2) {
+            double totalAvgAge1 = o1.avgAge;
+            double totalAvgAge2 = o2.avgAge;
+            return Double.compare(totalAvgAge1, totalAvgAge2);
+        }
+    };
+
     public  void setAvgAge (double avgAge){
         if (avgAge >= 20 && avgAge <= 101){
             this.avgAge = avgAge;

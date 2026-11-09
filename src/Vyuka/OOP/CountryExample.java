@@ -1,13 +1,15 @@
 package Vyuka.OOP;
 
-import basics.Country;
+import Vyuka.basics.Country;
 import fileworks.DataImport;
+import java.util.ArrayList;
 
-import java.awt.geom.CubicCurve2D;
 
-public class CountryExample {
+public class CountryExample{
+
     public static void main(String[] args) {
         DataImport di = new DataImport("data/countries.txt");
+        ArrayList<Country> countries = new ArrayList<>();
 
         while (di.hasNext()){
             String line = di.readLine();
@@ -20,8 +22,12 @@ public class CountryExample {
 
             Country country = new Country(name, continent, population, avgAge);
 
-            System.out.println(country);
+            countries.add(country);
         }
+        System.out.println(countries);
+        countries.sort(Country.BY_AVG_AGE);
+        System.out.println(countries);
+
         di.finishImport();
     }
 }
