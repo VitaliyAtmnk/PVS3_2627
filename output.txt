@@ -1,0 +1,44 @@
+Country{name='Albania', continent='Europe', population=3401200, avgAge=71.6}
+Country{name='Andorra', continent='Europe', population=78000, avgAge=83.5}
+Country{name='Austria', continent='Europe', population=8091800, avgAge=77.7}
+Country{name='Belgium', continent='Europe', population=10239000, avgAge=77.8}
+Country{name='Bulgaria', continent='Europe', population=8190900, avgAge=70.9}
+Country{name='Bosnia and Herzegovina', continent='Europe', population=3972000, avgAge=71.5}
+Country{name='Belarus', continent='Europe', population=10236000, avgAge=68.0}
+Country{name='Switzerland', continent='Europe', population=7160400, avgAge=79.6}
+Country{name='Czech Republic', continent='Europe', population=10278100, avgAge=74.5}
+Country{name='Germany', continent='Europe', population=82164700, avgAge=77.4}
+Country{name='Denmark', continent='Europe', population=5330000, avgAge=76.5}
+Country{name='Spain', continent='Europe', population=39441700, avgAge=78.8}
+Country{name='Estonia', continent='Europe', population=1439200, avgAge=69.5}
+Country{name='Finland', continent='Europe', population=5171300, avgAge=77.4}
+Country{name='France', continent='Europe', population=59225700, avgAge=78.8}
+Country{name='Faroe Islands', continent='Europe', population=43000, avgAge=78.4}
+Country{name='United Kingdom', continent='Europe', population=59623400, avgAge=77.7}
+Country{name='Gibraltar', continent='Europe', population=25000, avgAge=79.0}
+Country{name='Greece', continent='Europe', population=10545700, avgAge=78.4}
+Country{name='Croatia', continent='Europe', population=4473000, avgAge=73.7}
+Country{name='Hungary', continent='Europe', population=10043200, avgAge=71.4}
+Country{name='Ireland', continent='Europe', population=3775100, avgAge=76.8}
+Country{name='Iceland', continent='Europe', population=279000, avgAge=79.4}
+Country{name='Italy', continent='Europe', population=57680000, avgAge=79.0}
+Country{name='Liechtenstein', continent='Europe', population=32300, avgAge=78.8}
+Country{name='Lithuania', continent='Europe', population=3698500, avgAge=69.1}
+Country{name='Luxembourg', continent='Europe', population=435700, avgAge=77.1}
+Country{name='Latvia', continent='Europe', population=2424200, avgAge=68.4}
+Country{name='Monaco', continent='Europe', population=34000, avgAge=78.8}
+Country{name='Moldova', continent='Europe', population=4380000, avgAge=64.5}
+Country{name='Macedonia', continent='Europe', population=2024000, avgAge=73.8}
+Country{name='Malta', continent='Europe', population=380200, avgAge=77.9}
+Country{name='Netherlands', continent='Europe', population=15864000, avgAge=78.3}
+Country{name='Norway', continent='Europe', population=4478500, avgAge=78.7}
+Country{name='Poland', continent='Europe', population=38653600, avgAge=73.2}
+Country{name='Portugal', continent='Europe', population=9997600, avgAge=75.8}
+Country{name='Romania', continent='Europe', population=22455500, avgAge=69.9}
+Country{name='Russian Federation', continent='Europe', population=146934000, avgAge=67.2}
+Country{name='San Marino', continent='Europe', population=27000, avgAge=81.1}
+Country{name='Slovakia', continent='Europe', population=5398700, avgAge=73.7}
+Country{name='Slovenia', continent='Europe', population=1987800, avgAge=74.9}
+Country{name='Sweden', continent='Europe', population=8861400, avgAge=79.6}
+Country{name='Ukraine', continent='Europe', population=50456000, avgAge=66.0}
+Country{name='Yugoslavia', continent='Europe', population=10640000, avgAge=72.4}

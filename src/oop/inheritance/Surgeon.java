@@ -1,7 +1,7 @@
 package oop.inheritance;
 
-public class Surgeon extends Doctor{
-    final static int SURGEON_BONUS = 25000;
+public class Surgeon extends Doctor {
+    final static int SURGEON_BONUS = 2500;
 
     public Surgeon(String name) {
         super(name);
