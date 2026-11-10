@@ -4,6 +4,7 @@ import basics.Country;
 import fileworks.DataImport;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class CountryExample {
@@ -28,6 +29,8 @@ public class CountryExample {
 
             countries.add(country);
         }
+
+        Collections.shuffle(countries);
 
         countries.sort(BY_NAME);
 

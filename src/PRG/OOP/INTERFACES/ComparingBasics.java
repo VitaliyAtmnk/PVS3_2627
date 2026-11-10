@@ -3,33 +3,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class ComparingBasics {
-
-    static void printList(ArrayList<Item> items) {
-
-        for (Item i : items){
-
-            System.out.println(i);
-        }
-    }
-
-    static void main() {
-
-        ArrayList<Item> items = new ArrayList<>();
-
-        items.add(new Item("Hrušky", 100, 0.33));
-        items.add(new Item("Oříšky", 500, 2));
-        items.add(new Item("Ruby fantasy Monster", 10000, 1.5));
-        items.add(new Item("Kuře na Habiře", 5, 8));
-
-        printList(items);
-        System.out.println();
-        Collections.sort(items);
-        printList(items);
-        System.out.println("\n");
-    }
-}
-
 class Item implements Comparable<Item> {
 
     String name;
@@ -55,6 +28,15 @@ class Item implements Comparable<Item> {
         }
     };
 
+    public static final Comparator<Item> BY_NAME = new Comparator<Item>() {
+
+        @Override
+        public int compare(Item o1, Item o2) {
+
+            return o1.name.toLowerCase().compareTo(o2.name.toLowerCase());
+        }
+    };
+
     public Item(String name, int quantity, double price) {
 
         this.name = name;
@@ -75,11 +57,29 @@ class Item implements Comparable<Item> {
     }
 }
 
-class ComparatorByPrice implements Comparator<Item> {
+public class ComparingBasics {
 
-    @Override
-    public int compare(Item o1, Item o2) {
+    static void printList(ArrayList<Item> items) {
 
-        return 0;
+        for (Item i : items){
+
+            System.out.println(i);
+        }
+    }
+
+    static void main() {
+
+        ArrayList<Item> items = new ArrayList<>();
+
+        items.add(new Item("Oříšky", 500, 2));
+        items.add(new Item("Hrušky", 100, 0.33));
+        items.add(new Item("Ruby fantasy Monster", 10000, 1.5));
+        items.add(new Item("Kuře na Habiře", 5, 8));
+
+        printList(items);
+        System.out.println();
+        items.sort(Item.BY_NAME);
+        printList(items);
+        System.out.println("\n");
     }
 }
