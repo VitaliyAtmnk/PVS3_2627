@@ -60,4 +60,17 @@ public class Country implements Comparable<Country>{
             return Double.compare(o1.avgAge,o2.avgAge);
         }
     };
+    public static Comparator<Country> BY_POPULATION = new Comparator<Country>() {
+        @Override
+        public int compare(Country o1, Country o2) {
+            return Long.compare(o1.population,o2.population);
+        }
+    };
+    public static Comparator<Country> BY_CONTINENT = new Comparator<Country>() {
+        @Override
+        public int compare(Country o1, Country o2) {
+            return Double.compare(o1.population,o2.population);
+        }
+    };
+
 }

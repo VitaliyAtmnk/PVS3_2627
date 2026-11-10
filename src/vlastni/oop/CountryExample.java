@@ -29,11 +29,14 @@ public class CountryExample {
         Collections.sort(countries);
         printList(countries);
 
-        Collections.sort(countries, Country.BY_AVG_AGE);
+        countries.sort(Country.BY_AVG_AGE);
         printList(countries);
 
 
-        Collections.sort(countries.reversed(), Country.BY_AVG_AGE);
+        countries.sort(Country.BY_AVG_AGE.reversed());
+        printList(countries);
+
+        countries.sort(Country.BY_POPULATION);
         printList(countries);
 
     }
