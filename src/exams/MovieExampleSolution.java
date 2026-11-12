@@ -5,37 +5,40 @@ import fileworks.DataImport;
 
 import java.util.ArrayList;
 
-class Movie{
-    String name;
-    int year;
-    String genre;
-    double rating;
 
-    // alt + insert
-    public Movie(String name, int year, String genre, double rating) {
-        this.name = name;
-        this.year = year;
-        this.genre = genre;
-        this.rating = rating;
-    }
-
-    /**
-     * Tady tohle bude defaultni stringovy vystup z volani metody
-     * @return Stringovou reprezantaci filmu
-     */
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "name='" + name + '\'' +
-                ", year=" + year +
-                ", genre='" + genre + '\'' +
-                ", rating=" + rating +
-                '}';
-    }
-}
 
 
 public class MovieExampleSolution {
+    static class Movie{
+        String name;
+        int year;
+        String genre;
+        double rating;
+
+        // alt + insert
+        public Movie(String name, int year, String genre, double rating) {
+            this.name = name;
+            this.year = year;
+            this.genre = genre;
+            this.rating = rating;
+        }
+
+        /**
+         * Tady tohle bude defaultni stringovy vystup z volani metody
+         * @return Stringovou reprezantaci filmu
+         */
+        @Override
+        public String toString() {
+            return "Movie{" +
+                    "name='" + name + '\'' +
+                    ", year=" + year +
+                    ", genre='" + genre + '\'' +
+                    ", rating=" + rating +
+                    '}';
+        }
+    }
+
+
     public static void main(String[] args) {
         DataImport di = new DataImport("data/movieList.txt");
         DataExport de = new DataExport("horrors.txt");
