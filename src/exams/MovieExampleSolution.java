@@ -26,7 +26,7 @@ public class MovieExampleSolution {
         /**
          * Tady tohle bude defaultni stringovy vystup z volani metody
          * @return Stringovou reprezantaci filmu
-         */
+
         @Override
         public String toString() {
             return "Movie{" +
