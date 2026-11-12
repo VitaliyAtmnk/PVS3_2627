@@ -1,7 +1,5 @@
 package oop.inheritance;
 
-import java.util.ArrayList;
-
 public class CardiacSurgeon extends Surgeon{
 
     final static int CS_BONUS = 35000;

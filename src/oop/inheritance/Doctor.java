@@ -3,17 +3,19 @@ package oop.inheritance;
 public class Doctor {
     final static int BASE_SALARY = 50000;
 
-    public int pocetNekvalifikovanychPraci;
+    protected String name;
+    int salary;
 
-    public String name;
-    public int salary;
+    public int getSalary() {
+        return salary;
+    }
 
-    public Doctor(String name){
+    public Doctor(String name) {
         this.name = name;
         salary = BASE_SALARY;
     }
 
-    public void diagnose(){
+    public void diagnose() {
         System.out.println("Figuring out what's wrong with you...");
         salary += 10000;
     }

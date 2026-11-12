@@ -87,7 +87,7 @@ public class HuntingSeason {
         //pokud se podari nacist soubor,
         // zpracuj, jinak pokracuj v main
         loadData("Data/hunters.txt", hunters);
-        if (hunters.isEmpty()){
+        if (hunters.isEmpty()) {
             hunters.add(new Hunter("Theodore Roosvelt"));
             hunters.add(new Soldier("Jack Carter"));
             hunters.add(new Soldier("Ondřej Wislocki"));
@@ -107,12 +107,11 @@ public class HuntingSeason {
 
         Hunter best = hunters.getFirst();
 
-        for(Hunter hunter : hunters){
-            if(hunter.gold > best.gold){
+        for (Hunter hunter : hunters) {
+            if (hunter.gold > best.gold) {
                 best = hunter;
             }
         }
 
-        System.out.println(best);
     }
 }
