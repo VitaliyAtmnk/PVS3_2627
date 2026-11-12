@@ -1,4 +1,4 @@
-package exams;
+/*package exams;
 
 import fileworks.DataExport;
 import fileworks.DataImport;
@@ -92,3 +92,4 @@ public class MovieExampleSolution {
 
     }
 }
+*/

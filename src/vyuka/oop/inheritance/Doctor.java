@@ -1,0 +1,17 @@
+package vyuka.oop.inheritance;
+
+public class Doctor {
+    final static int BASE_SALARY = 50000;
+    String name;
+    int salary;
+
+    public Doctor(String name) {
+        this.name = name;
+        salary = BASE_SALARY;
+    }
+
+    void diagnose() {
+        System.out.println("Figuring out what's wrong with you...");
+        salary += 10000;
+    }
+}
